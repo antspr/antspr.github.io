@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <link href="styles/styles.css" rel = "stylesheet">
         <title>Developed by Antoine Springs</title>
     </head>
     <body>
-    <div class ="body"></div>
-        <ul id ="navbar">
-            <li a href = "#About Me"> About Me </li>
-            <li a href = "#Projects"> Projects </li>
-            <li a href = "#Contact"> Contact </li>
-        </ul>
-        <div id="Home">
-            <h2>Home</h2>
-            <p>Welcome to my portfolio, a place where I intend to showcase my ability to continuously learn and apply the latest in development technologies </p>
+       
+        <div>
+            <div class ="navbar">
+                <ul id ="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me </a></li>
+                    <li><a href="#showcase">Projects </a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+            </div>
+            <div id = "profile">
+                <img id="profile" src = "Images/bowtieheadshot.jpg" alt="I tied the bowtie myself">
+            </div>
+            <div id="home">
+                <h2>Home</h2>                
+                <p>Hi, my name is Antoine Springs 
+                    <br>
+                    <br>
+                        Welcome to my portfolio, a place where I intend to showcase my ability to continuously learn and apply the latest in development technologies 
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <div id="about">
+                <h2>About Antoine</h2>
+                <p>I am currently studying to be a software developer at DevCodeCamp Full Stack Bootcamp.<br>
+                    My background is technical although I am new to programming from scratch. My previous experience includes...<br>
+                    <ul>
+                        <li>being an Electronics Technician in the US NAVY  </li>
+                        <li>Oil and Gas industry Instrumentation Technician </li>
+                        <li>RF Field Service Engineer </li>
+                        <li>..and Control Systems Engineer for high speed manufacturing applications </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    ... my professional career has afforded me the opportunity to be exposed to many industries, <br>
+                    I hope to utilize my Electronics expertise to provide a unique approach to software development <br> 
+                    and also add value for any prospective employer or collaborators.  
+                </p>
+            </div>
+            <div id="showcase">
+                <h2>Projects</h2>
+                <p>Here are some of my recently completed projects/repos</p>
+                <div class="project">
+                    <img src= "Images/gitDaytrip.JPG" alt = "Day Trip Generator Project"
+                    width="300"
+                    height="300">
+                </div>
+
+
+                <div class="project">
+                    <img src= "Images/gitsoda.JPG" alt = "Soda Machine Project"
+                    width="300"
+                    height="300">
+                </div>
+
+
+                <div class="project">
+                    <img src= "Images/gitRPLS.JPG" alt = "Rock, Paper, Scissor, Lizard, Spock Project"
+                    width="300"
+                    height="300">
+                </div>
+            </div>
+            <div id="contact">
+                <h2>Contact</h2>
+                <p>Antoine Springs 
+                    <br>
+                    <br>
+                    springs.antoine@gmail.com
+                    <br>
+                    <br>
+                </p>
+            </div>
         </div>
-        <div id="About Me">
-            <h2>About Antoine</h2>
-            <p>I am currently studying to be a software developer at DevCodeCamp Full Stack Bootcamp.<br>
-               My background is technical although I am new to programming from scratch. My previous experience includes...<br>
-                <ol>
-                    <li>being an Electronics Technician in the US NAVY  </li>
-                    <li>Oil and Gas industry Instrumentation Technician </li>
-                    <li>RF Field Service Engineer </li>
-                    <li>..and Control Systems Engineer for high speed manufacturing applications </li>
-                </ol>
-                I hope to utilize my Electronics expertise to provide a unique approach to software development and streamlining applications for prospective employers.  
-            </p>
-        </div>
-        <div id="Projects">
-            <h2>Projects</h2>
-            <p>completed projects/repos</p>
-        </div>
-        <div id="Contact">
-            <h2>Contact</h2>
-            <p>Contact information</p>
-        </div>
-    </div>
     </body>
 </html>
